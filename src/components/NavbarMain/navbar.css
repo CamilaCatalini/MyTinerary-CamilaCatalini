@@ -1,0 +1,12 @@
+.link-nav{
+    text-decoration: none;
+    color: white;
+}
+
+.link-nav:hover{
+    color: rgb(226, 180, 62);
+}
+
+.link-nav:active{
+    color: rgb(226, 180, 62);
+}

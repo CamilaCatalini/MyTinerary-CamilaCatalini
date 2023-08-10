@@ -1,0 +1,32 @@
+.card{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.img-welcome{
+    width: 400px;
+    height: 200px;
+}
+
+.title-welcome{
+    padding: 3% 4%;
+    font-size: 1.4rem;
+}
+
+.btn-go-cities{
+    color: white;
+    background-color: rgb(24, 24, 24);;
+}
+
+@media (max-width: 425px) {
+
+    .img-welcome{
+        width: 300px;
+        height: 100px;
+    }
+
+    .title-welcome{
+        font-size: 1rem;
+    }
+}
