@@ -10,56 +10,56 @@ function IndividualIntervalsExample() {
 
   const info_carousel = [{ slide : '0',
                             info_slide : [{ img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-705/a_imago_st_030819400037_54998_cordo-a.jpg',
-                            title: 'Mezquita Sheikh Zayed, Abu Dhabi, Emiratos Árabes Unidos',  
-                            info: 'Célebre por su color blanco puro y la fusión de las diferentes arquitecturas islámicas en un solo templo, este inmenso templo con una superficie de 22.412 m2 y capacidad para más de cuarenta mil fieles, está considerada como la estructura de mármol más grande jamás construida por el hombre. Abrió sus puertas en el año 2007.'
+                            title: 'Sheikh Zayed Mosque, Abu Dhabi, United Arab Emirates',
+                            info: 'Celebrated for its pure white color and the fusion of different Islamic architectures in a single temple, this immense temple with a surface area of ​​22,412 m2 and a capacity for more than forty thousand worshippers, is considered the largest marble structure ever built by man. It opened its doors in 2007.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-708/a_Petr-a.jpg',
-                            title: 'Petra, Wadi Musa, Jordania',  
-                            info: 'Abandonada por los nabateos, tan crecidos por su riqueza y su habilidad comercial que osaron desafiar al poder de Roma, Petra aparece como una visión onírica tras cruzar a pie, o en burro, el desfiladero del Siq que protege su entrada. Sus fachadas de aires grecorromanos labradas en las rocas del desierto hacen de ella una de las ruinas más románticas, declarada Patrimonio de la Humanidad en 1985.'
+                            title: 'Petra, Wadi Musa, Jordan',
+                            info: 'Abandoned by the Nabateans, so grown by their wealth and commercial skills that they dared to challenge the power of Rome, Petra appears as a dream vision after crossing on foot, or on a donkey, the Siq gorge that protects its entrance. Its Greco-Roman facades carved into the desert rocks make it one of the most romantic ruins, declared a World Heritage Site in 1985.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-692/a_beijing-la-gran-muralla-a.jpg',
-                            title: 'Gran Muralla China en Mutianyu, Pekín',  
-                            info: 'Es el símbolo más reconocible de China, del voluntarismo de sus habitantes y también de su aislamiento secular. En una sencilla excursión desde Pekín puede caminarse por lo alto de algunos de los tramos mejor conservados de esta mole infinita que serpentea por las montañas del Norte del país.'
+                            title: 'Great Wall of China at Mutianyu, Beijing',
+                            info: 'It is the most recognizable symbol of China, of the voluntarism of its inhabitants and also of its secular isolation. In a simple excursion from Beijing you can walk on top of some of the best preserved sections of this infinite mass that meanders through the mountains of the North of the country.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-714/a_WDC036_cordo-a.jpg',
-                            title: 'Piscina reflectante del monumento a Lincoln, Washington D.C.',  
-                            info: 'Uno de los lugares que uno no se puede perder en Washington es el Lincoln Memorial. Desde este edificio de estilo revival griego, situado en la zona conocida como National Mall y construido para honrar la memoria del presidente Abraham Lincoln, se ven perfectamente alineados, la piscina reflectante, el monumento a George Washington (obelisco) y el Capitolio al fondo.'
+                            title: 'Lincoln Memorial Reflecting Pool, Washington D.C.',
+                            info: 'One of the places that one cannot miss in Washington is the Lincoln Memorial. From this Greek revival-style building, located in the area known as the National Mall and built to honor the memory of President Abraham Lincoln, the reflecting pool, the George Washington Monument (obelisk) and the Capitol in the background are perfectly aligned. '
                           }],
                         },
                         { slide : '1',
                             info_slide : [{ img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-713/a_Vista-de-la-Alhambra-desde-el-Albaici-a.jpg',
-                            title: 'La Alhambra, Granada',  
-                            info: 'Este mito imperecedero, este palacio de ensueño, el más pregonado y enaltecido de todos los tiempos, es también un enigmático cofre de leyendas románticas y secretos. Ocupa el puesto 16º del mundo y el sexto de Europa.'
+                            title: 'The Alhambra, Granada',
+                            info: 'This imperishable myth, this dream palace, the most proclaimed and exalted of all time, is also an enigmatic chest of romantic legends and secrets. It ranks 16th in the world and sixth in Europe.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-708/a_Petr-a.jpg',
-                            title: 'Templo Dorado, Amritsar, India',  
-                            info: 'Desde cualquiera de sus ángulos el que es el lugar más sagrado del sikhismo, practicado por 25 millones de personas, resulta imponente. Recubierto de mármol y laminado en oro su silueta se refleja en las aguas del estanque del amrit, sobre el que se eleva desde una plataforma.'
+                            title: 'Golden Temple, Amritsar, India',
+                            info: 'From any of its angles, what is the holiest place of Sikhism, practiced by 25 million people, is impressive. Covered in marble and laminated with gold, its silhouette is reflected in the waters of the amrit pool, on which it stands from a platform.'
                           },  
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-696/a_DellaHuff_PRESS-a.jpg',
-                            title: 'Puente Golden Gate, San Francisco',  
-                            info: 'Pocas estructuras modernas han inspirado tantos guiones cinematográficos como esta sinfonía de acero y color anaranjado que cruza la bahía de San Francisco. Ni tanta literatura. De día, de noche y, como casi siempre, con niebla, esta proeza de la ingeniería que une esta gran ciudad con el condado de Mari en California, es también el más retratado.'
+                            title: 'Golden Gate Bridge, San Francisco',
+                            info: 'Few modern structures have inspired as many movie scripts as this symphony of steel and orange that crosses the San Francisco Bay. Not so much literature. By day, by night and, as almost always, with fog, this feat of engineering that connects this great city with Mari County in California, is also the most photographed.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-694/a_corcovad-a.jpg',
-                            title: 'Estatua de Cristo Redentor, Río de Janeiro',  
-                            info: 'Vigilante sobre la cima del monte Corcovado, a 709 metros de altitud, el que es el gran emblema brasileño observa con los brazos abiertos una de las panorámicas más impresionantes de la bahía de Guanabara.'
+                            title: 'Statue of Christ the Redeemer, Rio de Janeiro',
+                            info: 'A watchman on the top of Mount Corcovado, at an altitude of 709 meters, the great Brazilian emblem observes with open arms one of the most impressive views of Guanabara Bay.'
                           }],
                         },
                         { slide : '2',
                             info_slide : [{ img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-701/a_gtres_a00512313_001-a.jpg',
-                            title: 'Teotihuacán, San Juan Teotihuacán, México',  
-                            info: 'La también llamada Ciudad de los Dioses conserva los vestigios de una de las civilizaciones más importantes de Mesoamérica. Un paseo por la zona arqueológica permite asombrarse por las hermosas construcciones y por el misterio que guardan los muros de la Pirámide del Sol, el templo de Quetzalpápalotl, la Calzada de los Muertos y las edificaciones que los rodean.'
+                            title: 'Teotihuacán, San Juan Teotihuacán, Mexico',
+                            info: 'The also called City of the Gods preserves the vestiges of one of the most important civilizations of Mesoamerica. A walk through the archaeological zone allows one to be amazed by the beautiful constructions and by the mystery that the walls of the Pyramid of the Sun, the temple of Quetzalpápalotl, the Calzada de los Muertos and the buildings that surround them keep.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-700/a_gtres_a00498537_042-a.jpg',
-                            title: ' Iglesia del Salvador sobre la Sangre Derramada, San Petersburgo',  
-                            info: 'Es el hito más significativo en el centro histórico de la ciudad y su icónica figura destaca en el perfil urbano. Su interior encierra la colección de mosaicos más extensa del mundo, superando incluso a San Marcos de Venecia. Esta iglesia ortodoxa rinde homenaje al sitio donde fuera asesinado el zar Alejandro II, junto al canal Gribaedova y junto al jardín Mikhailkovski, hoy parte del Museo Ruso.'
+                            title: ' Church of the Savior on Spilled Blood, Saint Petersburg',
+                            info: 'It is the most significant landmark in the historic center of the city and its iconic figure stands out in the urban profile. Its interior contains the most extensive collection of mosaics in the world, surpassing even San Marcos in Venice. This Orthodox church pays homage to the site where Tsar Alexander II was assassinated, next to the Gribaedova Canal and next to the Mikhailkovski Garden, today part of the Russian Museum.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-710/a_sidne-a.jpg',
-                            title: ' Sydney Harbour Bridge, Sidney',  
-                            info: 'Es uno de los iconos de Sidney. Inaugurado en 1932 con el objetivo de unir el norte y el sur de la ciudad, fue durante mucho tiempo el puente en arco más largo del mundo. Hoy una de sus torres tiene un mirador desde donde se puede disfrutar de una panorámica excelente de la ciudad.'
+                            title: ' Sydney Harbor Bridge, Sydney',
+                            info: 'It is one of Sydneys icons. Opened in 1932 with the aim of linking the north and south of the city, it was for a long time the longest arch bridge in the world. Today one of its towers has a viewpoint from where you can enjoy an excellent view of the city.'
                           },
                           { img: 'https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-707/a_Machu-Picch-a.jpg',
-                            title: ' Machu Picchu, Perú',  
-                            info: 'A 130 kilómetros de Cuzco, la Ciudad Perdida de los incas se alza entre barrancos en mitad de un paraje inaccesible de los Andes peruanos. La perfección de sus construcciones, su conservación y su escenario natural, encajonado en la cresta de un cerro sobre el valle del río Urubamba, hacen de este yacimiento uno de los tesoros arqueológicos más valiosos del mundo y, desde luego, uno de los más místicos.'
+                            title: ' Machu Picchu, Peru',
+                            info: '130 kilometers from Cuzco, the Lost City of the Incas stands between ravines in the middle of an inaccessible area of ​​the Peruvian Andes. The perfection of its constructions, its conservation and its natural setting, encased in the crest of a hill above the valley of the Urubamba River, make this site one of the most valuable archaeological treasures in the world and, of course, one of the most mystical.'
                           }],
                         }]
 
