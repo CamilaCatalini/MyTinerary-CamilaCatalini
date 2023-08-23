@@ -1,5 +1,11 @@
-section{
-    display: flex;
-    align-items: center;
-    height: 100vh;
+.body-cities{
+    padding-top: 6%;
+}
+
+@media (max-width: 425px) {
+
+    .body-cities{
+        padding-top: 20%;
+    }
+
 }

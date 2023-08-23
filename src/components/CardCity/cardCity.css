@@ -1,0 +1,27 @@
+.card-city{
+    padding: 0;
+}
+
+.img-city{
+    height: 35vh;
+}
+
+.btn-close{
+    position: absolute;
+    z-index: 5;
+}
+  
+
+@media (max-width: 425px) {
+
+    .title-city{
+        font-size: 1rem;
+    }
+
+    .title-info{
+        font-size: 0.7rem;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+}
