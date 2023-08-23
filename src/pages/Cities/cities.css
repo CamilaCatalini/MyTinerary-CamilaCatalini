@@ -1,3 +1,11 @@
 .body-cities{
     padding-top: 6%;
 }
+
+@media (max-width: 425px) {
+
+    .body-cities{
+        padding-top: 20%;
+    }
+
+}
