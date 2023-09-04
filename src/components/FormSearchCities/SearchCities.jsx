@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { getAllCities } from '../../services/cityService';
 
+import './searchCities.css'
+
 function SearchCities(props) {
 
   const cities = props.cities[2];
