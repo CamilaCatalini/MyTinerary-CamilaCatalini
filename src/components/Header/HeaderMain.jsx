@@ -8,9 +8,7 @@ import NavbarMain from '../NavbarMain/NavbarMain';
 
 const links = [
     {value: '/', content: 'Home', id: '1', active: true},
-    {value: '/cities', content: 'Cities', id: '2', active: false},
-    {value: '/', content: 'Link2', id: '3', active: false},
-    {value: '/', content: 'Link3', id: '4', active: false},
+    {value: '/cities', content: 'Cities', id: '2', active: false}
 ]
 
 const HeaderMain = () => {

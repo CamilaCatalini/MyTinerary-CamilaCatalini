@@ -1,0 +1,19 @@
+.title-style{
+    text-align: start !important;
+}
+
+.hideEditCity{
+    display: none;
+}
+
+.showEditCity{
+    display: block;
+}
+
+.hideListCity{
+    display: none;
+}
+
+.showListCity{
+    display: block;
+}

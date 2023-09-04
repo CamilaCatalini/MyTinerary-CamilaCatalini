@@ -5,6 +5,7 @@ import Cities from './pages/Cities/Cities'
 
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import LayoutMain from "./pages/Layout/LayoutMain";
+import Admin from "./pages/Admin/Admin";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,12 @@ const router = createBrowserRouter([
     {
       path: '/cities',
       element: <Cities />
-    }]
+    },
+    {
+      path: '/admin',
+      element: <Admin />
+    },
+    ]
   }
 ])
 

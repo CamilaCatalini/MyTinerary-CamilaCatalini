@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import { CloseButton, Row, Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
-import './cardCity.css'
+import './cardCity.css';
+import ToastCity from '../Toast/Toast';
+import Map from '../Map/Map.jsx'
 
 const CardCity = (props) => {
 
@@ -23,13 +25,16 @@ const CardCity = (props) => {
         <Card.Body>
             <Card.Title className='title-city'>{city.title}</Card.Title>
             <Card.Text className='title-info'>{city.info}</Card.Text>
-            <Row className='justify-content-end py-4'>
-              <Col lg="4" xs="4"><p>Region:</p></Col>
-              <Col lg="4" xs="4"><p>Currency:</p></Col>
-            </Row>
         </Card.Body>
         <Card.Body className='map'>
-          MAPA
+            <Row className='justify-content-end py-2'>
+              <Col lg="8" xs="4" >
+                <ToastCity data={[city.tineraries]}/>
+              </Col>
+              <Col lg="4" xs="4">
+                <Map/>
+              </Col>
+            </Row>
         </Card.Body>
     </Card>
   );

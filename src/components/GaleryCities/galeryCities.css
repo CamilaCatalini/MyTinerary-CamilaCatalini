@@ -1,9 +1,14 @@
-
 .xxx{
-    background-color: black;
-    filter: brightness(20%);
+    position: relative;
 }
 
+.xxx::before{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: rgba(0, 0, 0, .95);
+    
+}
 
 a{
     text-decoration: none;
@@ -44,8 +49,7 @@ a{
     display: block;
     background-color: rgb(22, 21, 21);
     z-index: 6;
-    
-
+    overflow-y: scroll;
 }
 
 @media (max-width: 425px) {
