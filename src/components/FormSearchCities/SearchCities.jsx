@@ -12,8 +12,7 @@ import './searchCities.css'
 
 function SearchCities(props) {
 
-  const cities = props.cities[2];
-  
+  const cities = props.cities;
 
   const [regions, setRegions] = useState([]);
   const inputSearch = useRef(null);
@@ -31,7 +30,6 @@ function SearchCities(props) {
   const handleChangeSearch = () =>{
     const newCities = [];
     const region = inputSearch.current.value;
-    console.log(region);
 
     if (selectOption.current.value == 'All cities'){
       cities.forEach(element => {

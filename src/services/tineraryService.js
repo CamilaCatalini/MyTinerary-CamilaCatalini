@@ -40,6 +40,15 @@ export const getOneTinerary = async(id) =>{
     }
 }
 
+export const getItinerariesForCity = async(id) =>{
+    try {
+        const res = await tineraryQueries('/tineraries/city-tineraries/'+id);
+        return res.data.tineraries
+    } catch (error) {
+        return(error);
+    }
+}
+
 export const deleteOneTinerary = async(id) =>{
     try {
         return axios.delete('http://localhost:3000/api/tineraries/delete/'+id).then(() => true);    

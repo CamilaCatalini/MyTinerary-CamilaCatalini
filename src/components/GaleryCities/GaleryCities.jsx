@@ -7,25 +7,34 @@ import Col from 'react-bootstrap/Col';
 import './galeryCities.css'
 import CardCity from '../CardCity/CardCity';
 import { getOneCity } from '../../services/cityService';
+import { useDispatch, useSelector } from 'react-redux';
 
+import { getCity } from '../../redux/actions/cityActions.js'
+import { getOneTinerary } from '../../services/tineraryService';
 
-const GaleryCities = (props) => {
-
-  const {cities} = props; 
+const GaleryCities = () => {
 
   const buttonChange = useRef(null);
+  const dispatch = useDispatch();
+  const cityStore = useSelector((store)=>store.cities);
+  const cities = cityStore.cities;
+  const [itineraries, setItineraries] = useState();
+  const it= [
 
-  const [city, setCity] = useState({'title':'null'});
+  ]
   const [showCity, setShowCity] = useState(true);
 
   const handleCardChange = (id) => {
     const elem = document.querySelector(".app-layout");
     elem.classList.replace("app-layout", "xxx");
     setShowCity(!showCity);
-    getOneCity(id).then((c)=>setCity(c));
-
-    
+    getOneCity(id).then(city=>dispatch(getCity(city)));
+    cityStore.city[0].tineraries.map(i => {
+      getOneTinerary(i).then(i=>it.push(i))
+    })
+    setItineraries(it)
   } 
+
 
   return (
     <Container >
@@ -42,7 +51,7 @@ const GaleryCities = (props) => {
         )}
       </Row>
       <div className={showCity ? "hideCity" : "showCity" } >
-        < CardCity data={[city, setShowCity]}/>
+        < CardCity data={[setShowCity, itineraries]}/>
       </div>
       
     </Container>
